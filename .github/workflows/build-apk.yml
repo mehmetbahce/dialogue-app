@@ -25,6 +25,11 @@ jobs:
           sed -i 's/minSdkVersion [0-9]\+/minSdkVersion 24/' android/app/build.gradle
           cat android/app/build.gradle | grep minSdkVersion
 
+      - name: Fix Kotlin version for flutter_tts
+        run: |
+          sed -i -E 's/(id "org.jetbrains.kotlin.android" version ")[0-9.]+(")/\11.9.22\2/' android/settings.gradle
+          cat android/settings.gradle | grep kotlin
+
       - name: Install dependencies
         run: flutter pub get
 
