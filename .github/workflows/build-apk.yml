@@ -19,6 +19,12 @@ jobs:
       - name: Create missing platform folders (android/ios)
         run: flutter create --platforms=android --project-name=dialogue_app .
 
+      - name: Fix minSdkVersion for flutter_tts (needs 24+)
+        run: |
+          sed -i 's/minSdkVersion flutter.minSdkVersion/minSdkVersion 24/' android/app/build.gradle
+          sed -i 's/minSdkVersion [0-9]\+/minSdkVersion 24/' android/app/build.gradle
+          cat android/app/build.gradle | grep minSdkVersion
+
       - name: Install dependencies
         run: flutter pub get
 
