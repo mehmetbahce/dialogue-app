@@ -31,7 +31,9 @@ class _DialogueDetailScreenState extends State<DialogueDetailScreen> {
   /// lang: "en-US" veya "tr-TR"
   Future<void> _speak(String text, {String lang = "en-US"}) async {
     await flutterTts.setLanguage(lang);
-    await flutterTts.setSpeechRate(0.35); // yavaş, anlaşılır hız
+    // İngilizce motor doğal olarak daha hızlı konuşuyor, o yüzden ayrı ayrı ayarlıyoruz
+    final rate = lang.startsWith("en") ? 0.25 : 0.35;
+    await flutterTts.setSpeechRate(rate);
     setState(() => _isSpeaking = true);
     await flutterTts.speak(text);
   }
