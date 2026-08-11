@@ -8,7 +8,7 @@ final List<DialogueCategory> dialogueCategories = [
     icon: Icons.chat_bubble_outline,
     dialogues: [
       Dialogue(
-        title: '1. I Live in Pasadena',
+        title: 'I Live in Pasadena',
         lines: const [
           DialogueLine(speaker: 'A', en: 'Where do you live?', tr: 'Nerede yaşıyorsun?'),
           DialogueLine(speaker: 'B', en: 'I live in Pasadena.', tr: 'Pasadena’da yaşıyorum.'),
@@ -25,7 +25,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '3. Do You Have a Girlfriend?',
+        title: 'Do You Have a Girlfriend?',
         lines: const [
           DialogueLine(speaker: 'A', en: 'Do you have a girlfriend?', tr: 'Sevgilin var mı?'),
           DialogueLine(speaker: 'B', en: 'No, I don’t. Do you?', tr: 'Hayır, yok. Senin var mı?'),
@@ -42,7 +42,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '6. Going to the Beach',
+        title: 'Going to the Beach',
         lines: const [
           DialogueLine(speaker: 'A', en: 'Let’s go to the beach.', tr: 'Hadi, sahile gidelim.'),
           DialogueLine(speaker: 'B', en: 'That’s a great idea.', tr: 'Bu harika bir fikir.'),
@@ -59,7 +59,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '7. My Wife Left Me',
+        title: 'My Wife Left Me',
         lines: const [
           DialogueLine(speaker: 'A', en: 'Are you married?', tr: 'Evli misin?'),
           DialogueLine(speaker: 'B', en: 'No. I’m divorced.', tr: 'Hayır boşandım.'),
@@ -76,7 +76,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '9. A Nice Place to Live',
+        title: 'A Nice Place to Live',
         lines: const [
           DialogueLine(speaker: 'A', en: 'I like living here.', tr: 'Burada yaşamayı seviyorum.'),
           DialogueLine(speaker: 'B', en: 'I agree. Pasadena is a nice city.', tr: 'Katılıyorum. Pasadena güzel bir şehir.'),
@@ -93,7 +93,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '15. A Bad Boyfriend',
+        title: 'A Bad Boyfriend',
         lines: const [
           DialogueLine(speaker: 'A', en: 'I’m upset with my mom.', tr: 'Anneme kırgınım.'),
           DialogueLine(speaker: 'B', en: 'Why is that?', tr: 'Neden?'),
@@ -110,7 +110,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '20. Are You Sleepy?',
+        title: 'Are You Sleepy?',
         lines: const [
           DialogueLine(speaker: 'A', en: 'Why are you yawning?', tr: 'Neden esniyorsun?'),
           DialogueLine(speaker: 'B', en: 'I’m sleepy.', tr: 'Uykum var.'),
@@ -127,7 +127,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '23. Shave Your Face',
+        title: 'Shave Your Face',
         lines: const [
           DialogueLine(speaker: 'A', en: 'I hate shaving.', tr: 'Tıraş olmaktan nefret ediyorum.'),
           DialogueLine(speaker: 'B', en: 'Me too.', tr: 'Ben de.'),
@@ -144,7 +144,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '24. Two Polite People',
+        title: 'Two Polite People',
         lines: const [
           DialogueLine(speaker: 'A', en: 'Excuse me.', tr: 'Affedersiniz.'),
           DialogueLine(speaker: 'B', en: 'Yes?', tr: 'Evet?'),
@@ -161,7 +161,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '28. His Line Is Never Busy',
+        title: 'His Line Is Never Busy',
         lines: const [
           DialogueLine(speaker: 'A', en: 'My husband died.', tr: 'Benim kocam öldü.'),
           DialogueLine(speaker: 'B', en: 'I’m sorry for you.', tr: 'Senin için üzgünüm.'),
@@ -178,7 +178,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '29. Friday the 13th',
+        title: 'Friday the 13th',
         lines: const [
           DialogueLine(speaker: 'A', en: 'Today is Friday the thirteenth.', tr: 'Bugün on üçüncü Cuma.'),
           DialogueLine(speaker: 'B', en: 'That’s a bad day.', tr: 'Kötü bir gün.'),
@@ -195,7 +195,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '30. Do You Love Me?',
+        title: 'Do You Love Me?',
         lines: const [
           DialogueLine(speaker: 'A', en: 'Do you really love me?', tr: 'Beni gerçekten seviyor musun?'),
           DialogueLine(speaker: 'B', en: 'Of course.', tr: 'Elbette.'),
@@ -212,7 +212,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '31. What’s That Smell?',
+        title: 'What’s That Smell?',
         lines: const [
           DialogueLine(speaker: 'A', en: 'My grandma’s apartment smells funny.', tr: 'Büyükannemin dairesi tuhaf kokuyor.'),
           DialogueLine(speaker: 'B', en: 'So does mine.', tr: 'Benimki de öyle.'),
@@ -229,7 +229,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '34. Did You Say Something?',
+        title: 'Did You Say Something?',
         lines: const [
           DialogueLine(speaker: 'A', en: 'I have to go to the bathroom.', tr: 'Tuvalete gitmem gerekiyor.'),
           DialogueLine(speaker: 'B', en: 'You drink too much coffee.', tr: 'Çok fazla kahve içiyorsun.'),
@@ -246,7 +246,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '42. Time for a Nap',
+        title: 'Time for a Nap',
         lines: const [
           DialogueLine(speaker: 'A', en: 'I’m going to take a nap.', tr: 'Ben biraz kestireceğim.'),
           DialogueLine(speaker: 'B', en: 'You should unplug the phone.', tr: 'Telefonun fişini çekmelisin.'),
@@ -263,7 +263,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '43. Thinking about His Funeral',
+        title: 'Thinking about His Funeral',
         lines: const [
           DialogueLine(speaker: 'A', en: 'That was a nice funeral.', tr: 'Güzel bir cenazeydi.'),
           DialogueLine(speaker: 'B', en: 'Yes, Dad, it was.', tr: 'Evet baba öyleydi.'),
@@ -280,7 +280,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '44. The Elephant',
+        title: 'The Elephant',
         lines: const [
           DialogueLine(speaker: 'A', en: 'Yikes! What was that noise?', tr: 'Eyvah! O Ses de neydi öyle?'),
           DialogueLine(speaker: 'B', en: 'I had to blow my nose.', tr: 'Burnumu sümkürmek zorunda kaldım.'),
@@ -297,7 +297,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '45. Only a Few Friends',
+        title: 'Only a Few Friends',
         lines: const [
           DialogueLine(speaker: 'A', en: 'I have lots of friends.', tr: 'Benim çok arkadaşım var.'),
           DialogueLine(speaker: 'B', en: 'Really? How many do you have?', tr: 'Gerçekten mi? Senin kaç tane var?'),
@@ -314,7 +314,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '46. If You Cheat, You Will Die',
+        title: 'If You Cheat, You Will Die',
         lines: const [
           DialogueLine(speaker: 'A', en: 'Don’t you ever cheat on me.', tr: 'Sakın beni aldatma.'),
           DialogueLine(speaker: 'B', en: 'Why would I do that?', tr: 'Bunu neden yapayım ki?'),
@@ -331,7 +331,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '47. Let’s Not Go Out',
+        title: 'Let’s Not Go Out',
         lines: const [
           DialogueLine(speaker: 'A', en: 'I hate to go outside.', tr: 'Dışarı çıkmaktan nefret ediyorum.'),
           DialogueLine(speaker: 'B', en: 'Me too.', tr: 'Ben de.'),
@@ -348,7 +348,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '48. Fill Out the Form',
+        title: 'Fill Out the Form',
         lines: const [
           DialogueLine(speaker: 'A', en: 'Will you look at this form?', tr: 'Bu forma bir bakar mısın?'),
           DialogueLine(speaker: 'B', en: 'Are you having problems with it?', tr: 'Onunla ilgili bir sorunun mu var?'),
@@ -365,7 +365,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '55. Just Shoot Me',
+        title: 'Just Shoot Me',
         lines: const [
           DialogueLine(speaker: 'A', en: 'People are funny.', tr: 'İnsanlar komik.'),
           DialogueLine(speaker: 'B', en: 'They sure are.', tr: 'Kesinlikle öyleler.'),
@@ -382,7 +382,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '56. Use a Tissue',
+        title: 'Use a Tissue',
         lines: const [
           DialogueLine(speaker: 'A', en: 'Don’t wipe your nose on your sleeve.', tr: 'Burnunu elbisenin koluna silme.'),
           DialogueLine(speaker: 'B', en: 'But I don’t have a tissue.', tr: 'Ama benim mendilim yok.'),
@@ -399,7 +399,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '57. Two Little Ones',
+        title: 'Two Little Ones',
         lines: const [
           DialogueLine(speaker: 'A', en: 'I’m worried.', tr: 'Endişeleniyorum.'),
           DialogueLine(speaker: 'B', en: 'Worried about what?', tr: 'Ne için endişeleniyorsun?'),
@@ -422,7 +422,7 @@ final List<DialogueCategory> dialogueCategories = [
     icon: Icons.home,
     dialogues: [
       Dialogue(
-        title: '4. Walking the Dog',
+        title: 'Walking the Dog',
         lines: const [
           DialogueLine(speaker: 'A', en: 'Where are you going?', tr: 'Nereye gidiyorsun?'),
           DialogueLine(speaker: 'B', en: 'I have to walk the dog.', tr: 'Köpeği gezdirmem gerekiyor.'),
@@ -439,7 +439,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '10. The New Mattress',
+        title: 'The New Mattress',
         lines: const [
           DialogueLine(speaker: 'A', en: 'We need a new mattress.', tr: 'Yeni bir yatağa ihtiyacımız var.'),
           DialogueLine(speaker: 'B', en: 'What’s the matter with this one?', tr: 'Bunun nesi var?'),
@@ -456,7 +456,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '13. The New House',
+        title: 'The New House',
         lines: const [
           DialogueLine(speaker: 'A', en: 'We need to save money.', tr: 'Para biriktirmemiz gerekiyor.'),
           DialogueLine(speaker: 'B', en: 'Why do we need to save money?', tr: 'Neden para biriktirmemiz gerekiyor?'),
@@ -473,7 +473,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '17. Housecleaning Day',
+        title: 'Housecleaning Day',
         lines: const [
           DialogueLine(speaker: 'A', en: 'I have to clean the house.', tr: 'Evi temizlemek zorundayım.'),
           DialogueLine(speaker: 'B', en: 'Yes, it’s very dirty.', tr: 'Evet, çok kirli.'),
@@ -490,7 +490,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '19. Write to Your Grandma',
+        title: 'Write to Your Grandma',
         lines: const [
           DialogueLine(speaker: 'A', en: 'Did you write a letter to grandma?', tr: 'Büyükannene mektup yazdın mı?'),
           DialogueLine(speaker: 'B', en: 'Yes, I did.', tr: 'Evet, yazdım.'),
@@ -507,7 +507,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '22. Feed the Cat',
+        title: 'Feed the Cat',
         lines: const [
           DialogueLine(speaker: 'A', en: 'Did you feed the cat?', tr: 'Kediyi besledin mi?'),
           DialogueLine(speaker: 'B', en: 'I’ll do that in a minute.', tr: 'Biraz sonra besleyeceğim.'),
@@ -524,7 +524,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '25. Give Me a Puppy',
+        title: 'Give Me a Puppy',
         lines: const [
           DialogueLine(speaker: 'A', en: 'Mom, I want a puppy.', tr: 'Anne ben bir köpek yavrusu istiyorum.'),
           DialogueLine(speaker: 'B', en: 'Let me think about it.', tr: 'Bir düşüneyim.'),
@@ -541,7 +541,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '26. Kittens to Give Away',
+        title: 'Kittens to Give Away',
         lines: const [
           DialogueLine(speaker: 'A', en: 'Look at all these kittens!', tr: 'Şu kedi yavrularına bak!'),
           DialogueLine(speaker: 'B', en: 'How many are there?', tr: 'Kaç tane var?'),
@@ -558,7 +558,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '32. They Deliver',
+        title: 'They Deliver',
         lines: const [
           DialogueLine(speaker: 'A', en: 'The price of stamps goes up and up.', tr: 'Pulların fiyatı sürekli artıyor.'),
           DialogueLine(speaker: 'B', en: 'I think stamps used to cost a penny.', tr: 'Eskiden pullar bir peniydi sanırım.'),
@@ -575,7 +575,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '33. A Lost Button',
+        title: 'A Lost Button',
         lines: const [
           DialogueLine(speaker: 'A', en: 'A button came off my shirt.', tr: 'Gömleğimden bir düğme düştü.'),
           DialogueLine(speaker: 'B', en: 'What are you going to do?', tr: 'Ne yapacaksın?'),
@@ -592,7 +592,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '35. Washed and Folded',
+        title: 'Washed and Folded',
         lines: const [
           DialogueLine(speaker: 'A', en: 'Did you do the laundry?', tr: 'Çamaşırları yıkadın mı?'),
           DialogueLine(speaker: 'B', en: 'Yes, I did.', tr: 'Evet, yıkadım.'),
@@ -609,7 +609,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '39. Time for Your Bath',
+        title: 'Time for Your Bath',
         lines: const [
           DialogueLine(speaker: 'A', en: 'It’s time for your bath, young lady.', tr: 'Banyo yapma vaktin geldi küçük hanım.'),
           DialogueLine(speaker: 'B', en: 'But, Mom, I’m not dirty.', tr: 'Ama anne ben kirli değilim.'),
@@ -626,7 +626,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '49. The Animal Shelter',
+        title: 'The Animal Shelter',
         lines: const [
           DialogueLine(speaker: 'A', en: 'Let’s go to the animal shelter.', tr: 'Hayvan barınağına gidelim.'),
           DialogueLine(speaker: 'B', en: 'What do you want to do?', tr: 'Ne yapmak istiyorsun?'),
@@ -649,7 +649,7 @@ final List<DialogueCategory> dialogueCategories = [
     icon: Icons.attach_money,
     dialogues: [
       Dialogue(
-        title: '5. Borrowing Money',
+        title: 'Borrowing Money',
         lines: const [
           DialogueLine(speaker: 'A', en: 'Can I borrow \$5?', tr: '5 dolar borç alabilir miyim?'),
           DialogueLine(speaker: 'B', en: 'Sure. Why do you need it?', tr: 'Elbette. Ona neden ihtiyacın var?'),
@@ -666,7 +666,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '53. The ATM',
+        title: 'The ATM',
         lines: const [
           DialogueLine(speaker: 'A', en: 'I’m going to the bank.', tr: 'Ben bankaya gidiyorum.'),
           DialogueLine(speaker: 'B', en: 'What do you need to do?', tr: 'Ne yapman gerekiyor?'),
@@ -683,7 +683,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '83. A Dream Car',
+        title: 'A Dream Car',
         lines: const [
           DialogueLine(speaker: 'A', en: 'I need a cheap car.', tr: 'Ucuz bir arabaya ihtiyacım var.'),
           DialogueLine(speaker: 'B', en: 'How much money do you have?', tr: 'Ne kadar paran var?'),
@@ -706,7 +706,7 @@ final List<DialogueCategory> dialogueCategories = [
     icon: Icons.directions_car,
     dialogues: [
       Dialogue(
-        title: '2. I Have a Honda',
+        title: 'I Have a Honda',
         lines: const [
           DialogueLine(speaker: 'A', en: 'Do you have a car?', tr: 'Araban var mı?'),
           DialogueLine(speaker: 'B', en: 'Yes, I do.', tr: 'Evet, var.'),
@@ -723,7 +723,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '70. What Will People Think?',
+        title: 'What Will People Think?',
         lines: const [
           DialogueLine(speaker: 'A', en: 'I don’t like riding the bus.', tr: 'Otobüse binmeyi sevmiyorum.'),
           DialogueLine(speaker: 'B', en: 'Why not?', tr: 'Neden ki?'),
@@ -740,7 +740,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '71. Don’t Ride the Bus',
+        title: 'Don’t Ride the Bus',
         lines: const [
           DialogueLine(speaker: 'A', en: 'I don’t like riding the bus.', tr: 'Otobüse binmeyi sevmiyorum.'),
           DialogueLine(speaker: 'B', en: 'Why not?', tr: 'Neden ki?'),
@@ -757,7 +757,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '72. Don’t Cut the Tires',
+        title: 'Don’t Cut the Tires',
         lines: const [
           DialogueLine(speaker: 'A', en: 'We had a problem at school.', tr: 'Okulda bir sorunumuz vardı.'),
           DialogueLine(speaker: 'B', en: 'What was the problem?', tr: 'Sorun neydi?'),
@@ -774,7 +774,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '73. It’s Okay to Speed',
+        title: 'It’s Okay to Speed',
         lines: const [
           DialogueLine(speaker: 'A', en: 'You’re driving too fast.', tr: 'Çok hızlı sürüyorsun.'),
           DialogueLine(speaker: 'B', en: 'Why do you say that?', tr: 'Neden öyle söylüyorsun?'),
@@ -791,7 +791,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '74. Check Your Tires',
+        title: 'Check Your Tires',
         lines: const [
           DialogueLine(speaker: 'A', en: 'Remember to put air in your tires.', tr: 'Lastiklerine hava basmayı unutma.'),
           DialogueLine(speaker: 'B', en: 'How often do I have to do that?', tr: 'Bunu ne sıklıkla yapmam gerekiyor?'),
@@ -808,7 +808,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '75. A New Car',
+        title: 'A New Car',
         lines: const [
           DialogueLine(speaker: 'A', en: 'Let’s go for a ride.', tr: 'Hadi bir gezintiye çıkalım.'),
           DialogueLine(speaker: 'B', en: 'Where are we going?', tr: 'Nereye gidiyoruz?'),
@@ -825,7 +825,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '76. I’m Going to Explode',
+        title: 'I’m Going to Explode',
         lines: const [
           DialogueLine(speaker: 'A', en: 'I have to go to the bathroom.', tr: 'Tuvalete gitmem gerekiyor.'),
           DialogueLine(speaker: 'B', en: 'Why didn’t you go before we left?', tr: 'Neden biz ayrılmadan önce gitmedin?'),
@@ -842,7 +842,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '77. The Missing Car',
+        title: 'The Missing Car',
         lines: const [
           DialogueLine(speaker: 'A', en: 'Where’s the car?', tr: 'Araba nerede?'),
           DialogueLine(speaker: 'B', en: 'What do you mean?', tr: 'Ne demek istiyorsun?'),
@@ -859,7 +859,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '78. Too Many Cars',
+        title: 'Too Many Cars',
         lines: const [
           DialogueLine(speaker: 'A', en: 'Look at this traffic.', tr: 'Şu trafiğe bak.'),
           DialogueLine(speaker: 'B', en: 'I’d rather not.', tr: 'Yapmamayı tercih ederim.'),
@@ -876,7 +876,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '79. Don’t Call the Police',
+        title: 'Don’t Call the Police',
         lines: const [
           DialogueLine(speaker: 'A', en: 'Did you see that car?', tr: 'Şu arabayı gördün mü?'),
           DialogueLine(speaker: 'B', en: 'Yes, he went through the red light.', tr: 'Evet, kırmızı ışıkta geçti.'),
@@ -893,7 +893,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '80. Wash the Car',
+        title: 'Wash the Car',
         lines: const [
           DialogueLine(speaker: 'A', en: 'My car is dirty.', tr: 'Arabam kirli.'),
           DialogueLine(speaker: 'B', en: 'Why don’t you wash it?', tr: 'Neden yıkamıyorsun?'),
@@ -910,7 +910,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '81. Two Birds with One Stone',
+        title: 'Two Birds with One Stone',
         lines: const [
           DialogueLine(speaker: 'A', en: 'When are we going to stop?', tr: 'Ne zaman duracağız?'),
           DialogueLine(speaker: 'B', en: 'We’ll stop at the next McDonald’s.', tr: 'Bir sonraki McDonald’s’ta duracağız.'),
@@ -927,7 +927,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '82. Beat the Light',
+        title: 'Beat the Light',
         lines: const [
           DialogueLine(speaker: 'A', en: 'This is such a long light.', tr: 'Bu çok uzun bir ışık.'),
           DialogueLine(speaker: 'B', en: 'Look how many cars are waiting in line.', tr: 'Bak kaç araba sırada bekliyor.'),
@@ -944,7 +944,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '84. A Bad Driver?',
+        title: 'A Bad Driver?',
         lines: const [
           DialogueLine(speaker: 'A', en: 'Good afternoon, officer.', tr: 'İyi günler, memur bey.'),
           DialogueLine(speaker: 'B', en: 'Your driver’s license and registration, please.', tr: 'Ehliyetiniz ve ruhsatınız lütfen.'),
@@ -961,7 +961,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '85. A Slow Walker',
+        title: 'A Slow Walker',
         lines: const [
           DialogueLine(speaker: 'A', en: '\$140! I can’t believe it.', tr: '140 dolar! inanamıyorum'),
           DialogueLine(speaker: 'B', en: 'What are you talking about?', tr: 'Neyden bahsediyorsun?'),
@@ -978,7 +978,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '86. Hit and Run',
+        title: 'Hit and Run',
         lines: const [
           DialogueLine(speaker: 'A', en: 'They were in a crosswalk near school at 3 a.m.', tr: 'Sabah 3’te okulun yakınındaki bir yaya geçidindeydiler.'),
           DialogueLine(speaker: 'B', en: 'Who?', tr: 'Kim?'),
@@ -1001,7 +1001,7 @@ final List<DialogueCategory> dialogueCategories = [
     icon: Icons.health_and_safety,
     dialogues: [
       Dialogue(
-        title: '37. A Bad Diet',
+        title: 'A Bad Diet',
         lines: const [
           DialogueLine(speaker: 'A', en: 'Mom, I’m hungry.', tr: 'Anne ben acıktım.'),
           DialogueLine(speaker: 'B', en: 'Look in the fridge.', tr: 'Buzdolabına bak.'),
@@ -1018,7 +1018,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '60. New Glasses',
+        title: 'New Glasses',
         lines: const [
           DialogueLine(speaker: 'A', en: 'I can’t read my book.', tr: 'Kitabımı okuyamıyorum.'),
           DialogueLine(speaker: 'B', en: 'Turn on the light.', tr: 'Işığı aç.'),
@@ -1035,7 +1035,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '87. A Stomachache',
+        title: 'A Stomachache',
         lines: const [
           DialogueLine(speaker: 'A', en: 'I have a stomachache.', tr: 'Karnım ağrıyor.'),
           DialogueLine(speaker: 'B', en: 'Is it something you ate?', tr: 'Yediğin bir şeyden dolayı mı?'),
@@ -1052,7 +1052,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '88. A Blood Stain',
+        title: 'A Blood Stain',
         lines: const [
           DialogueLine(speaker: 'A', en: 'What’s this stain?', tr: 'Bu leke nedir?'),
           DialogueLine(speaker: 'B', en: 'I don’t know.', tr: 'Bilmiyorum.'),
@@ -1069,7 +1069,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '89. Sore Fingers',
+        title: 'Sore Fingers',
         lines: const [
           DialogueLine(speaker: 'A', en: 'My fingers hurt.', tr: 'Parmaklarım acıyor.'),
           DialogueLine(speaker: 'B', en: 'Why do they hurt?', tr: 'Neden acıyorlar?'),
@@ -1086,7 +1086,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '90. Too Much Stress',
+        title: 'Too Much Stress',
         lines: const [
           DialogueLine(speaker: 'A', en: 'What did the doctor say?', tr: 'Doktor ne dedi?'),
           DialogueLine(speaker: 'B', en: 'He thinks I have too much stress.', tr: 'Çok fazla stresim olduğunu düşünüyor.'),
@@ -1103,7 +1103,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '91. A Paper Cut',
+        title: 'A Paper Cut',
         lines: const [
           DialogueLine(speaker: 'A', en: 'I cut my finger!', tr: 'Parmağımı kestim!'),
           DialogueLine(speaker: 'B', en: 'How did you do that?', tr: 'Bunu nasıl yaptın?'),
@@ -1120,7 +1120,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '92. Cigarette Smoke',
+        title: 'Cigarette Smoke',
         lines: const [
           DialogueLine(speaker: 'A', en: 'Do you smell that?', tr: 'Bunun kokusunu alıyor musun?'),
           DialogueLine(speaker: 'B', en: 'Oh, yes.', tr: 'Ah, evet.'),
@@ -1137,7 +1137,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '93. Nose Drops',
+        title: 'Nose Drops',
         lines: const [
           DialogueLine(speaker: 'A', en: 'Do you have a cold?', tr: 'Üşüttün mü?'),
           DialogueLine(speaker: 'B', en: 'Yes, I do.', tr: 'Evet, üşüttüm.'),
@@ -1154,7 +1154,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '94. Skin Cancer',
+        title: 'Skin Cancer',
         lines: const [
           DialogueLine(speaker: 'A', en: 'Would you put suntan lotion on my back,', tr: 'Sırtıma güneş kremi sürer misin, lütfen? please?'),
           DialogueLine(speaker: 'B', en: 'Sure.', tr: 'Elbette.'),
@@ -1171,7 +1171,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '95. Quitting Smoking',
+        title: 'Quitting Smoking',
         lines: const [
           DialogueLine(speaker: 'A', en: 'I can’t quit smoking.', tr: 'Sigarayı bırakamıyorum.'),
           DialogueLine(speaker: 'B', en: 'Of course you can!', tr: 'Elbette yapabilirsin!'),
@@ -1188,7 +1188,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '96. A Bad Back',
+        title: 'A Bad Back',
         lines: const [
           DialogueLine(speaker: 'A', en: 'My back is killing me.', tr: 'Sırtım beni öldürüyor.'),
           DialogueLine(speaker: 'B', en: 'What did you do?', tr: 'Ne yaptın?'),
@@ -1205,7 +1205,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '97. Three a Day',
+        title: 'Three a Day',
         lines: const [
           DialogueLine(speaker: 'A', en: 'My brother smokes three packs a day.', tr: 'Abim günde üç paket içiyor.'),
           DialogueLine(speaker: 'B', en: 'Three packs of what?', tr: 'Üç paket ne?'),
@@ -1222,7 +1222,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '98. Brush, Brush',
+        title: 'Brush, Brush',
         lines: const [
           DialogueLine(speaker: 'A', en: 'I hate brushing my teeth.', tr: 'Dişlerimi fırçalamaktan nefret ediyorum.'),
           DialogueLine(speaker: 'B', en: 'It’s such a chore.', tr: 'Bu çok büyük bir angarya.'),
@@ -1245,7 +1245,7 @@ final List<DialogueCategory> dialogueCategories = [
     icon: Icons.laptop_mac,
     dialogues: [
       Dialogue(
-        title: '11. My Laptop Is So Slow',
+        title: 'My Laptop Is So Slow',
         lines: const [
           DialogueLine(speaker: 'A', en: 'My laptop is so slow.', tr: 'Dizüstü bilgisayarım çok yavaş.'),
           DialogueLine(speaker: 'B', en: 'Buy a new one.', tr: 'Yenisini al.'),
@@ -1262,7 +1262,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '40. A Black Screen',
+        title: 'A Black Screen',
         lines: const [
           DialogueLine(speaker: 'A', en: 'Something’s wrong with my computer.', tr: 'Bilgisayarımda bir sorun var.'),
           DialogueLine(speaker: 'B', en: 'Exactly what?', tr: 'Nedir tam olarak?'),
@@ -1279,7 +1279,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '41. A New Hard Drive',
+        title: 'A New Hard Drive',
         lines: const [
           DialogueLine(speaker: 'A', en: 'I called HP about my computer.', tr: 'Bilgisayarımla ilgili olarak HP’yi aradım.'),
           DialogueLine(speaker: 'B', en: 'What did they say?', tr: 'Ne dediler?'),
@@ -1296,7 +1296,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '54. Digital TV',
+        title: 'Digital TV',
         lines: const [
           DialogueLine(speaker: 'A', en: 'Are you ready?', tr: 'Hazır mısın?'),
           DialogueLine(speaker: 'B', en: 'Ready for what?', tr: 'Neye hazır mıyım?'),
@@ -1319,7 +1319,7 @@ final List<DialogueCategory> dialogueCategories = [
     icon: Icons.school,
     dialogues: [
       Dialogue(
-        title: '58. A Lost Pen',
+        title: 'A Lost Pen',
         lines: const [
           DialogueLine(speaker: 'A', en: 'I lost my new pen.', tr: 'Yeni kalemimi kaybettim.'),
           DialogueLine(speaker: 'B', en: 'Where did you lose it?', tr: 'Nerede kaybettin?'),
@@ -1336,7 +1336,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '59. Gravity for All',
+        title: 'Gravity for All',
         lines: const [
           DialogueLine(speaker: 'A', en: 'Gravity is very important.', tr: 'Yerçekimi çok önemlidir.'),
           DialogueLine(speaker: 'B', en: 'What is gravity?', tr: 'Yerçekimi nedir?'),
@@ -1353,7 +1353,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '61. School Items',
+        title: 'School Items',
         lines: const [
           DialogueLine(speaker: 'A', en: 'What do you need for school?', tr: 'Okul için neye ihtiyacın var?'),
           DialogueLine(speaker: 'B', en: 'I need pencils.', tr: 'Kurşun kalemlere ihtiyacım var.'),
@@ -1370,7 +1370,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '63. Shake Your Pen',
+        title: 'Shake Your Pen',
         lines: const [
           DialogueLine(speaker: 'A', en: 'My pen is out of ink.', tr: 'Kalemimin mürekkebi bitti.'),
           DialogueLine(speaker: 'B', en: 'Shake it a couple of times.', tr: 'Birkaç kez salla.'),
@@ -1387,7 +1387,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '64. Do Your Homework',
+        title: 'Do Your Homework',
         lines: const [
           DialogueLine(speaker: 'A', en: 'Have you done your homework?', tr: 'Ödevini yaptın mı?'),
           DialogueLine(speaker: 'B', en: 'Not yet.', tr: 'Henüz değil.'),
@@ -1404,7 +1404,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '65. The Soldier',
+        title: 'The Soldier',
         lines: const [
           DialogueLine(speaker: 'A', en: 'I can’t wait until I graduate.', tr: 'Mezun olana kadar bekleyemem.'),
           DialogueLine(speaker: 'B', en: 'Me too.', tr: 'Ben de.'),
@@ -1421,7 +1421,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '66. The English Major',
+        title: 'The English Major',
         lines: const [
           DialogueLine(speaker: 'A', en: 'What is your major?', tr: 'Bölümün nedir?'),
           DialogueLine(speaker: 'B', en: 'English.', tr: 'İngilizce.'),
@@ -1438,7 +1438,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '67. Keep Your Eyes Open',
+        title: 'Keep Your Eyes Open',
         lines: const [
           DialogueLine(speaker: 'A', en: 'This is a huge library.', tr: 'Bu çok büyük bir kütüphane.'),
           DialogueLine(speaker: 'B', en: 'Yes, it has lots of rooms and lots of space.', tr: 'Evet, bir sürü odası ve bölümleri var.'),
@@ -1455,7 +1455,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '68. Two Plus Two',
+        title: 'Two Plus Two',
         lines: const [
           DialogueLine(speaker: 'A', en: 'How good is your math?', tr: 'Matematiğin ne kadar iyi?'),
           DialogueLine(speaker: 'B', en: 'I can add two and two.', tr: 'İki tane ikiyi toplayabilirim.'),
@@ -1478,7 +1478,7 @@ final List<DialogueCategory> dialogueCategories = [
     icon: Icons.menu_book,
     dialogues: [
       Dialogue(
-        title: '21. God Is Watching',
+        title: 'God Is Watching',
         lines: const [
           DialogueLine(speaker: 'A', en: 'It’s Sunday.', tr: 'Bugün Pazar.'),
           DialogueLine(speaker: 'B', en: 'So?', tr: 'Eee, ne olmuş yani?'),
@@ -1495,7 +1495,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '27. Happy in Heaven',
+        title: 'Happy in Heaven',
         lines: const [
           DialogueLine(speaker: 'A', en: 'My parents go to church every Sunday.', tr: 'Annem ve babam her pazar günü kiliseye giderler.'),
           DialogueLine(speaker: 'B', en: 'They trust in God.', tr: 'Tanrıya güveniyorlar.'),
@@ -1512,7 +1512,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '69. Prayers',
+        title: 'Prayers',
         lines: const [
           DialogueLine(speaker: 'A', en: 'Do you believe in God?', tr: 'Tanrı’ya inanıyor musunuz?'),
           DialogueLine(speaker: 'B', en: 'Of course.', tr: 'Elbette.'),
@@ -1535,7 +1535,7 @@ final List<DialogueCategory> dialogueCategories = [
     icon: Icons.wb_sunny,
     dialogues: [
       Dialogue(
-        title: '14. Fish Are Everywhere',
+        title: 'Fish Are Everywhere',
         lines: const [
           DialogueLine(speaker: 'A', en: 'The ocean is so big.', tr: 'Okyanus çok büyük.'),
           DialogueLine(speaker: 'B', en: 'You can’t see the end of it.', tr: 'Sonunu göremiyorsun.'),
@@ -1550,7 +1550,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '16. Talking Animals',
+        title: 'Talking Animals',
         lines: const [
           DialogueLine(speaker: 'A', en: 'Do animals talk to each other?', tr: 'Hayvanlar birbirleriyle konuşur mu?'),
           DialogueLine(speaker: 'B', en: 'Of course they talk to each other.', tr: 'Tabii ki birbirleriyle konuşurlar.'),
@@ -1567,7 +1567,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '50. Is It Raining?',
+        title: 'Is It Raining?',
         lines: const [
           DialogueLine(speaker: 'A', en: 'What’s the weather like?', tr: 'Hava nasıl?'),
           DialogueLine(speaker: 'B', en: 'I don’t know. I just woke up.', tr: 'Bilmiyorum. Şimdi uyandım.'),
@@ -1584,7 +1584,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '51. It’s So Hot',
+        title: 'It’s So Hot',
         lines: const [
           DialogueLine(speaker: 'A', en: 'I can’t believe how hot it is.', tr: 'İnanamıyorum, hava çok sıcak..'),
           DialogueLine(speaker: 'B', en: 'It’s not even noon yet.', tr: 'Henüz öğlen bile olmadı.'),
@@ -1601,7 +1601,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '52. A Snowman',
+        title: 'A Snowman',
         lines: const [
           DialogueLine(speaker: 'A', en: 'I’ll be glad when winter comes.', tr: 'Kış geldiği zaman sevineceğim.'),
           DialogueLine(speaker: 'B', en: 'Why is that?', tr: 'Niçin?'),
@@ -1624,7 +1624,7 @@ final List<DialogueCategory> dialogueCategories = [
     icon: Icons.tv,
     dialogues: [
       Dialogue(
-        title: '8. What’s on TV?',
+        title: 'What’s on TV?',
         lines: const [
           DialogueLine(speaker: 'A', en: 'I’m bored.', tr: 'Canım sıkılıyor.'),
           DialogueLine(speaker: 'B', en: 'What’s on TV?', tr: 'Televizyonda ne var?'),
@@ -1641,7 +1641,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '12. How about a Pizza?',
+        title: 'How about a Pizza?',
         lines: const [
           DialogueLine(speaker: 'A', en: 'What’s for dinner?', tr: 'Akşam yemeğinde ne var?'),
           DialogueLine(speaker: 'B', en: 'I’m not sure.', tr: 'Emin değilim.'),
@@ -1658,7 +1658,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '18. A TV Lover',
+        title: 'A TV Lover',
         lines: const [
           DialogueLine(speaker: 'A', en: 'You’re watching too much TV.', tr: 'Çok fazla TV izliyorsun.'),
           DialogueLine(speaker: 'B', en: 'What do you mean?', tr: 'Ne demek istiyorsun?'),
@@ -1675,7 +1675,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '36. Do you listen to the radio?',
+        title: 'Do you listen to the radio?',
         lines: const [
           DialogueLine(speaker: 'A', en: 'Do you listen to the radio?', tr: 'Radyo dinler misin?'),
           DialogueLine(speaker: 'B', en: 'I listen day and night.', tr: 'Gece gündüz dinlerim.'),
@@ -1692,7 +1692,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '38. A Ham Sandwich',
+        title: 'A Ham Sandwich',
         lines: const [
           DialogueLine(speaker: 'A', en: 'What is there to eat?', tr: 'Yiyecek olarak ne var?'),
           DialogueLine(speaker: 'B', en: 'I don’t know. Look in the fridge.', tr: 'Bilmiyorum. Buzdolabına bak.'),
@@ -1709,7 +1709,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '62. A Good Magazine',
+        title: 'A Good Magazine',
         lines: const [
           DialogueLine(speaker: 'A', en: 'I like this magazine.', tr: 'Bu dergiyi seviyorum.'),
           DialogueLine(speaker: 'B', en: 'So do I.', tr: 'Ben de öyle.'),
@@ -1726,7 +1726,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '99. A Great Movie',
+        title: 'A Great Movie',
         lines: const [
           DialogueLine(speaker: 'A', en: 'Did you see Titanic?', tr: 'Titanik’i gördün mü?'),
           DialogueLine(speaker: 'B', en: 'Yes. It is a great movie.', tr: 'Evet. Bu harika bir film.'),
@@ -1743,7 +1743,7 @@ final List<DialogueCategory> dialogueCategories = [
         ],
       ),
       Dialogue(
-        title: '100. A Card Game',
+        title: 'A Card Game',
         lines: const [
           DialogueLine(speaker: 'A', en: 'Let’s play cards.', tr: 'Hadi kağıt oynayalım.'),
           DialogueLine(speaker: 'B', en: 'I don’t know any card games.', tr: 'Hiç kart oyunu bilmiyorum.'),
